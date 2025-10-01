@@ -1,0 +1,99 @@
+/* Mobile-first design */
+/* General resets */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: montserrat, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #000000;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-image: url('backgroundBody.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Header */
+.header {
+    background-image: url('backgroundHeaderTiling.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+    text-align: center;
+    min-width: 100%;
+    background-color: #ffffff5d;
+    color: #ffffff;
+    padding: 1rem 0;
+    box-shadow: 0 -1px 10px 6px #ffffff5d;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hide a:hover {
+    text-decoration: underline;
+}
+
+ul.topnav { 
+    list-style-type: none;
+} 
+ul.topnav li a { 
+    display: block; 
+    color: #ffffff; 
+} 
+
+ul.topnav li.hide {
+    display:none ; 
+} 
+
+ul.topnav.toggleclass
+li{
+    display:block;
+}
+
+
+.icon{
+    font-size: 2rem;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+
+
+@media (min-width: 850px) {
+
+    ul.topnav li.hide { 
+        display:contents; /*to show contents */ 
+    } 
+
+    ul.topnav li.icon {display:none;
+    } 
+    .navbar ul {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+}
+
+
+
