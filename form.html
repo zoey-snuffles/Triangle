@@ -13,6 +13,145 @@
     body {
       font-family: Arial;
       padding: 10px;
+      background: #70a4f2;  
+    }
+
+    .form {
+        margin: auto;
+        text-align: center;
+        width: 50%;
+        border: 3px solid #70a4f2;
+        padding: 10px;
+        background: white;
+
+    }
+
+    .formAlign {
+      width:fit-content;
+      align-content :right;
+      margin:auto;
+      width: 150px;
+    }
+
+    .header h1 {
+      padding: 15px;
+      text-align: center;
+      background: white;
+      font-size: 50px;
+      color: #70a4f2;
+      text-shadow: 4px 4px 4px #000000;
+    }
+
+    .bold {
+      width: 100%;
+      text-align: center;
+      width: 100%;
+      font-weight: bold;
+      font-family: 'Trebuchet MS', sans-serif;
+    }
+   
+    .button {
+      width: 60px;
+      color: grey;
+    }
+  
+    .button:hover {
+      background-color: #70a4f2;
+      color: white;
+    }
+
+
+
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1> Booking Request</h1>
+  </div>
+<br>
+<br>
+<br>
+
+<div class = "form">
+  <h3 class = "bold">Enter your destination, dates and amount of guests, then click "Submit" to submit the form:</h3>
+  <br>
+    <div class = "formAlign">
+      <form id="formAlign" method="get" action="form.html" >
+      Destination: <input id="Destination" type="text" name="country"><br><br>
+      Arrival: <input id="Arrival" type="date" name="year"><br><br>
+      Departure: <input id="Departure" type="date" name="year"><br><br>
+      Guests:<select id="AmountOfPeople" class = "button">
+        <option value=0></option>
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=2>3</option>
+        <option value=3>4</option>
+      </select><br><br>
+      <input class = "button" type="button" onclick="validateForm()" value="Submit">
+    </form>
+  </div>
+</div>
+
+
+
+  <script>
+    function submitForm() {
+      document.writeln("destination: " + document.getElementById("frm1").elements[0].value + " and your year of birth is: " +
+        document.getElementById("frm1").elements[1].value + " and your gender is: " + document.getElementById("frm1").elements[2].value);
+
+      document.getElementById("frm1").submit();
+    }
+
+    function validateForm() {
+      //Regexs for validation, match only letters.
+      var letters = /^[A-Za-z]+$/;
+
+
+      //get form 
+      var myForm = document.getElementById('frm1');
+      //get textboxes
+      var cob = myForm.elements[0].value;
+      var yob = myForm.elements[1].value;
+      //get select
+      var gndr = myForm.elements[2].value;
+
+      console.log(cob.value)
+      //validate the value of destination, Only letters allowed, no spaces, symbols or numbers.
+      if (!cob.match(letters)) {
+        alert('Please enter a valid destination');
+        return false;
+      }
+      myform.submit();
+    }
+
+  </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!-- OLD CODE
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewpoint">
+    <meta name = "webname" content = "snowtrailstravelagency.com">
+    <title>snowtrailtravelagency.com</title>
+    <link rel ="stylesheets" href = "">
+</head>
+<body>
+ <style>
+    body {
+      font-family: Arial;
+      padding: 10px;
       background: #70a4f2;
       text-align: center;
     }
@@ -87,3 +226,4 @@
 </body>
 
 </html>
+--->
