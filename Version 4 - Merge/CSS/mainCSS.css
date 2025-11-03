@@ -13,14 +13,14 @@ body {
     background-color: #ffffff;
     padding-left: 1rem;
     padding-right: 1rem;
-    background-image: url('backgroundBody.png');
+    background-image: url('BannerMountain1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 /* Header */
 .header {
-    background-image: url('BannerMountain1.jpg');
+    background-image: url('../Media/BannerMountain1.jpg');
     background-repeat: repeat-x;
     background-size: contain;
     text-align: center;
@@ -121,10 +121,10 @@ h1 {
 
 
 
-/* Sections */
+/* Sections
 .section {
     margin: 1rem 0;
-}
+}*/
 
 /* block Info */
 .block-info {
