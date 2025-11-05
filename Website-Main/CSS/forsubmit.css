@@ -7,7 +7,6 @@
     background:#afd5fb;
     border: 1px dotted #a4a4a4;
     border-radius: 8px;
-     
 }
 
 .formStyle {
@@ -21,7 +20,7 @@
     color: grey;
 }
 
-  
+
 .button:hover, input:hover {
     background-color: #e0e1e1;
     color: white;
