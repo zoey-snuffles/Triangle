@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Web Name" content="">
+  <meta name="About" content="">
+  <meta name="Context" content="">
+  <title>SnowMan.com</title>
+  <link rel="stylesheet" href="submit.css">
+  <link rel="stylesheet" href="forsubmit.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <h1>SnowMan.com</h1>
+
+  </header>
+
+  <main>
+    <nav class="navbar">
+      <ul class="topnav"> <!--burger menu and the navigation-->
+        <li class="icon"><a href="#">&#9776;&nbsp;</a></li>
+        <li class="hide"><a href="index.html">Home</a></li>
+        <li class="hide"><a href="blog.html">Blog</a></li>
+        <li class="hide"><a href="reviews.html">Reviews</a></li>
+        <li class="hide"><a href="holiday.html">Holiday</a></li>
+      </ul>
+    </nav>
+
+    <section id="Blocks" class="section">
+
+      <div class="form">
+        <h3 class="bold">Enter your destination, dates and amount of guests, then click "Submit" to submit the form:
+        </h3>
+        <br>
+        <div class="formStyle" alt="form"> <!--alt will explain what it is to blind person whilst using a text to speech application-->
+          <form id="formAlign" method="get" action="form.html">
+
+            <table id="formTable">
+
+            </tr>
+            <td><label for="Destination">Destination:</label></td>
+            <td><input id="Destination" type="text" name="country" alt="destination"></td>
+          </tr>
+                      </tr>
+            <td><label for="Arrival">Arrival:</label></td>
+            <td><input id="Arrival" type="date" name="year" alt="arrival"></td>
+          </tr>
+                      </tr>
+            <td><label for="Departure">Departure:</label></td>
+            <td><input id="Departure" type="date" name="year" alt="departure"></td>
+          </tr>
+                      </tr>
+            <td> <label for="Guests">Guests:</label></td>
+            <td>            <select id="Guests" class="button" alt="guests">
+                <option value=0></option>
+                <option value=1>1</option>
+                <option value=2>2</option>
+                <option value=2>3</option>
+                <option value=3>4</option>
+              </select></td>
+          </tr>
+          <tr><td></td><td><input class="submitbutton" type="button" onclick="validateForm()" value="Submit"></td></tr>
+        
+        
+        </table>
+            
+           
+            
+            
+            
+            
+           
+
+              
+            </form>
+          </div>
+        </section>
+      </main>
+
+
+
+
+  <footer>
+    <p>
+      &copy 2025 My Website
+    </p>
+
+  </footer>
+
+  <script src="submit.js"></script>
+  <script src="burger.js"></script>
+
+
+</body>
+
+</html>
