@@ -6,13 +6,12 @@ body {
 
 /* Section styling */
 section {
-  background-color:rgb(255, 255, 255) ;  
-  margin: 40px;        
-  border: 10px rgb(190, 190, 190) ;
-  border-style: solid;  
-  padding: 10px 30px 50px 10px;    
-  width: auto;     
-  
+    background-color:rgb(255, 255, 255) ;  
+    margin: 40px;        
+    border: 10px rgb(190, 190, 190) ;
+    border-style: solid;  
+    padding: 10px 30px 50px 10px;    
+    width: auto;     
 }
 
 /* Centre Title of Text box */
