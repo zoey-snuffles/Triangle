@@ -1,0 +1,33 @@
+form {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border: 3px solid #70a4f2;
+    padding: 10px;
+    background:#afd5fb;
+    border: 1px dotted #a4a4a4;
+    border-radius: 8px;
+     
+}
+
+.formStyle {
+    width:fit-content;
+    text-align :left;
+    margin:auto;
+}
+
+.button {
+    width: 60px;
+    color: grey;
+}
+
+  
+.button:hover, input:hover {
+    background-color: #e0e1e1;
+    color: white;
+}
+
+.submitbutton:hover{
+    background-color: rgb(169, 174, 177);
+    color: white;
+}
