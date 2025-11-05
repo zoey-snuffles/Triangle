@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Web Name" content="">
+    <meta name="About" content="">
+    <meta name="Context" content="">
+    <title>SnowMan.com</title>
+    <link rel="stylesheet" href="submit.css">
+</head>
+<body>
+
+    <header class="header" id="header">
+        <h1>SnowMan.com</h1>
+
+    </header>
+    
+    <main> 
+        <nav class="navbar">
+            <ul class="topnav"> <!--burger menu and the navigation-->
+                <li class="icon"><a href="#">&#9776;&nbsp;</a></li>
+                <li class="hide"><a href="index.html">Home</a></li>            
+                <li class="hide"><a href="blog.html">Blog</a></li>
+                <li class="hide"><a href="reviews.html">Reviews</a></li> 
+                <li class="hide"><a href="holiday.html">Holiday</a></li> 
+            </ul>
+        </nav>
+
+        <div class = "form">
+  <h3 class = "bold">Enter your destination, dates and amount of guests, then click "Submit" to submit the form:</h3>
+  <br>
+    <div class = "formAlign">
+      <form id="formAlign" method="get" action="form.html" >
+      Destination: <input id="Destination" type="text" name="country"><br><br>
+      Arrival: <input id="Arrival" type="date" name="year"><br><br>
+      Departure: <input id="Departure" type="date" name="year"><br><br>
+      Guests:<select id="AmountOfPeople" class = "button">
+        <option value=0></option>
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=2>3</option>
+        <option value=3>4</option>
+      </select><br><br>
+      <input class = "button" type="button" onclick="validateForm()" value="Submit">
+    </form>
+  </div>
+</div>
+
+    </main>
+
+
+    <footer class="center">
+
+    </footer>
+
+<script src="submit.js"></script>
+<script src ="burger.js"></script>
+
+
+</body>
+</html>

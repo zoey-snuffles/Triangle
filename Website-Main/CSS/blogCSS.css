@@ -1,0 +1,66 @@
+/* Style Body */
+body {
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Section styling */
+section {
+  background-color:rgb(255, 255, 255) ;  
+  margin: 40px;        
+  border: 10px rgb(190, 190, 190) ;
+  border-style: solid;  
+  padding: 10px 30px 50px 10px;    
+  width: auto;     
+  
+}
+
+/* Centre Title of Text box */
+h2 {
+    text-align: center;
+}
+
+/* Position of Lucases portrait */
+.LucasSnow {
+    float: left;
+    margin: 0px 15px 20px 30px;
+    height: 30%;
+    width: 20%;
+}
+
+/* Center Images */
+.Images{
+    display: flex;
+    justify-content:center;
+    
+
+}
+
+/* size and position of images */
+.Mountain1, .Mountain2, .Mountain3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px; 
+    width: 200px;
+    padding: 0px 30px 0px 30px;
+}
+
+/* Position of Images */
+figure {
+    display: inline-block;
+    margin: 20px; 
+    
+}
+
+figure img {
+    vertical-align: top;
+}
+
+/* Position of Captions */
+figure figcaption {
+    display: flex;
+    text-align: center;
+    margin-left: 25%;
+
+}
