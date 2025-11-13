@@ -9,7 +9,10 @@ section {
     background-color:rgb(255, 255, 255) ;  
     margin: 40px;        
     border: 10px rgb(190, 190, 190) ;
-    border-style: solid;  
+    /* border-style: solid;   */
+    border-radius: 8px;
+    border: 1px dotted #a4a4a4;
+    box-shadow: 0 2px 4px rgb(255, 255, 255);
     padding: 10px 30px 50px 10px;    
     width: auto;     
 }
@@ -29,10 +32,7 @@ h2 {
 
 /* Center Images */
 .Images{
-    display: flex;
-    justify-content:center;
-    
-
+    text-align: center;
 }
 
 /* size and position of images */
@@ -52,15 +52,19 @@ figure {
     
 }
 
+/* resposive design, iamges adapt to screen size */
+@media (min-width: 700px) {
+    .figure {
+        display: list-item;
+    }
+}
+
 figure img {
     vertical-align: top;
 }
 
-/* Position of Captions */
+/* Position (center) of Captions */
 figure figcaption {
-    display: flex;
     text-align: center;
-    margin-left: 25%;
-
 }
 
