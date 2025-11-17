@@ -13,7 +13,7 @@ section {
     border-radius: 8px;
     border: 1px dotted #a4a4a4;
     box-shadow: 0 2px 4px rgb(255, 255, 255);
-    padding: 10px 30px 50px 10px;    
+    padding: 30px 30px 30px 30px;    
     width: auto;     
 }
 
@@ -25,9 +25,10 @@ h2 {
 /* Position of Lucases portrait */
 .LucasSnow {
     float: left;
-    margin: 0px 15px 20px 30px;
-    height: 30%;
+    margin: 0px 15px 30px 30px;
     width: 20%;
+    max-height: 180px;
+    max-width: 180px;
 }
 
 /* Center Images */
@@ -40,9 +41,10 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 150px; 
-    width: 200px;
-    padding: 0px 30px 0px 30px;
+    height: 75%; 
+    max-height: 150px;
+    width: 100%;
+    max-width: 200px;
 }
 
 /* Position of Images */
