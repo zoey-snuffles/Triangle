@@ -28,6 +28,8 @@ h2 {
     margin: 0px 15px 20px 30px;
     height: 30%;
     width: 20%;
+    max-height: 230px;
+    max-width: 230px;
 }
 
 /* Center Images */
