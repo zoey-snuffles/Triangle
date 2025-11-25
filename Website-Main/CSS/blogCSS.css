@@ -44,7 +44,7 @@ h2 {
     height: 75%; 
     max-height: 150px;
     width: 100%;
-    max-width: 200px;
+    /* max-width: 200px; */
 }
 
 /* Position of Images */
