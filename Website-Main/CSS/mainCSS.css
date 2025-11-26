@@ -30,6 +30,17 @@ body {
     padding: 0;
 }
 
+@media (max-width: 534px) {
+    .header {
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+
+}
+
+
+
 .header h1{
     color: #000000 ;
     padding-bottom: 0.9em;
