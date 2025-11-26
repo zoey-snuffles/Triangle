@@ -18,18 +18,19 @@ body{
 }
 
 .big-container {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width:90%;
     height: 4%;
     background-color:  #70a4f2;
     padding: 1%;
     border-radius: 5px;
-    display: flex;
-    gap: 20px;
-    flex-wrap: wrap;
     border-style:double;
     border-color:white ;
-    
-
+    overflow: hidden;
     
 }
 

@@ -1,7 +1,6 @@
 
 
 function contactMessage(){
-  document.getElementById("formTable").innerHTML = "Submitted. We will be in contact shortly!";
+  document.getElementById("formStyle").innerHTML = "Submitted. We will be in contact shortly!";
 }
 
-  

@@ -2,92 +2,80 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="Web Name" content="">
-  <meta name="About" content="">
-  <meta name="Context" content="">
-  <title>SnowMan.com</title>
-  <link rel="stylesheet" href="../CSS/mainCSS.css">
-  <link rel="stylesheet" href="../CSS/forsubmit.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Web Name" content="">
+    <meta name="About" content="">
+    <meta name="Context" content="">
+    <title>LucasSnow.com</title>
+    <link rel="stylesheet" href="../CSS/mainCSS.css">
+    <link rel="stylesheet" href="../CSS/forsubmit.css">
+    <link rel="stylesheet" href="../CSS/contactTest.css">
 </head>
 
 <body>
+    <header class="header">
+        <h1>Snow Trails Travel Agency</h1>
+    </header>
+    <main>
+        <nav class="navbar">
+            <ul class="topnav"> <!--burger menu and the navigation-->
+                <li class="icon"><a href="#">&#9776;&nbsp;</a></li>
+                <li class="hide"><a href="../index.html">Home</a></li>
+                <li class="hide"><a href="blog.html">Blog</a></li>
+                <li class="hide"><a href="contact.html">Reviews</a></li>
+                <li class="hide"><a href="accessibility.html">Accessibility</a></li>
+            </ul>
+        </nav>
+        <section id="Blocks" class="section">
 
-  <header class="header">
-    <h1>Snow Trails Travel Agency</h1>
-  </header>
+            <div class="form">
+                <h3 class="bold">Looking to book a holiday? fill out this form for a detailed holiday plan for you:
+                </h3>
+                <br>
+                <!--<div class="formStyle" alt="form"> alt will explain what it is to blind person whilst using a text to speech application-->
+                <form id="formStyle" method="get" action="form.html">
 
-  <main>
-    <nav class="navbar">
-      <ul class="topnav"> <!--burger menu and the navigation-->
-        <li class="icon"><a href="#">&#9776;&nbsp;</a></li>
-        <li class="hide"><a href="../index.html">Home</a></li>
-        <li class="hide"><a href="blog.html">Blog</a></li>
-        <li class="hide"><a href="reviews.html">Reviews</a></li>
-        <li class="hide"><a href="contact.html">Contact</a></li>
-        <li class="hide"><a href="accessibility.html">Accessibility</a></li>
-      </ul>
-    </nav>
+                    <table id="formTable">
 
-    <section id="Blocks" class="section">
+                        </tr>
+                        <td id="center"><label for="name"> Full name:</label></td>
+                        <td><input id="name" type="text" alt="name"></td>
+                        </tr>
+                        </tr>
+                        <td><label for="email">Email Address:</label></td>
+                        <td><input id="email" type="email" alt="email"></td>
+                        </tr>
+                        </tr>
+                        <td><label for="phone">Phone Number:</label></td>
+                        <td><input id="phone" type="tel" alt="phone number"></td>
+                        </tr>
+                    </table>
 
-      <div class="form">
-        <h3 class="bold">Looking to book a holiday? fill out this form for a detailed holiday plan for you:
-        </h3>
-        <br>
-        <div class="formStyle" alt="form"> <!--alt will explain what it is to blind person whilst using a text to speech application-->
-          <form id="formAlign" method="get" action="form.html">
+                    <p> Please give us 50-100 words discribing your perfect holiday with us. Feel free to include all
+                        special requests/requirements you may have</p>
+                    <textarea rows="6" cols="30"></textarea>
 
-            <table id="formTable">
+                    <input class="submitbutton" type="button" onclick="contactMessage()" value="Submit">
+                </form>
+            </div>
+            
 
-            </tr>
-            <td><label for="Destination">Destination:</label></td>
-            <td><input id="Destination" type="text" name="country" alt="destination"></td>
-          </tr>
-                      </tr>
-            <td><label for="Arrival">Arrival:</label></td>
-            <td><input id="Arrival" type="date" name="year" alt="arrival"></td>
-          </tr>
-                      </tr>
-            <td><label for="Departure">Departure:</label></td>
-            <td><input id="Departure" type="date" name="year" alt="departure"></td>
-          </tr>
-                      </tr>
-            <td> <label for="Guests">Guests:</label></td>
-            <td>            <select id="Guests" class="button" alt="guests">
-                <option value=0></option>
-                <option value=1>1</option>
-                <option value=2>2</option>
-                <option value=2>3</option>
-                <option value=3>4</option>
-              </select></td>
-          </tr>
-          <tr><td></td><td><input class="submitbutton" type="button" onclick="contactMessage()" value="Submit"></td></tr>
-        
-        
-        </table>
 
-              
-            </form>
-          </div>
         </section>
-      </main>
+    </main>
 
+    <footer>
+        <p>
+            &copy 2025 My Website
+        </p>
 
-
-
-  <footer>
-    <p>
-      &copy 2025 My Website
-      </p>
-
-  </footer>
-
-  <script src="../JS/submit.js"></script>
-  <script src="../JS/burgermenu.js"></script>
-
-
+    </footer>
+    <script src="../JS/burgermenu.js"></script>
+    <script src = "../JS/submit.js"></script>
 </body>
 
 </html>
+
+
+add a alt tag
