@@ -104,9 +104,9 @@ h2 {
 
 /* Footer */
 footer {
-    background-color: rgb(168, 168, 168);   
+    background-color:#051d25;   
     text-align: center;     
-    color: rgb(0, 0, 0);
+    color: rgb(255, 252, 252);
     margin: 0; 
 }
 
@@ -149,4 +149,9 @@ footer {
 footer, .pfooter {
 
     display: list-item;
+
+}
+
+.afooter {
+    color: rgb(112, 190, 216);
 }
