@@ -13,6 +13,7 @@
     width:fit-content;
     text-align :left;
     margin:auto;
+    overflow: hidden;
 }
 
 .button {

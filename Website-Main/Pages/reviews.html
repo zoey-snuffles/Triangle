@@ -8,6 +8,8 @@
     <meta name="Context" content="">
     <title>LucasSnow.com</title>
     <link rel="stylesheet" href="../CSS/mainCSS.css">
+    <link rel="stylesheet" href="../CSS/forsubmit.css">
+    <link rel="stylesheet" href="../CSS/contactTest.css">
 </head>
 <body>
     <header class="header">
@@ -26,11 +28,43 @@
         </nav>
         <section id="Blocks" class="section">
 
+            <div class="form">
+        <h3 class="bold">Looking to book a holiday? fill out this form for a detailed holiday plan for you:
+        </h3>
+        <br>
+        <!--<div class="formStyle" alt="form"> alt will explain what it is to blind person whilst using a text to speech application-->
+          <form id="formStyle" method="get" action="form.html">
 
+            <table id="formTable">
 
+            </tr>
+            <td><label for="name">Name:</label></td>
+            <td><input id="name" type="text" alt="name"></td>
+          </tr>
+                      </tr>
+            <td><label for="email">Email Address:</label></td>
+            <td><input id="email" type="email" alt="email"></td>
+          </tr>
+                      </tr>
+            <td><label for="phone">Phone Number:</label></td>
+            <td><input id="phone" type="tel"  alt="phone number"></td>
+          </tr>
+          </table>
 
+          <p> Please give us 50-100 words discribing your perfect holiday with us. Feel free to include all special requests/requirements you may have</p>
+            <textarea rows = "6" cols = "30"></textarea>          
+            
+            <!--<tr><td></td><td>--><input class="submitbutton" type="button" onclick="contactMessage()" value="Submit"><!--</td></tr>-->
+        
+        
+        
+
+              
+            </form>
+    
         </section>
-    </main>
+      </main>
+
     <footer>
         <p>
         &copy 2025 My Website
