@@ -31,11 +31,11 @@ body {
 }
 
 @media (max-width: 534px) {
+
     .header {
         background-repeat: no-repeat;
         background-size: auto;
     }
-
 
 }
 
@@ -146,3 +146,7 @@ footer {
     }
 }
 
+footer, .pfooter {
+
+    display: list-item;
+}
