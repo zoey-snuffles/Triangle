@@ -63,9 +63,33 @@ textarea {
     margin: auto;
     text-align: center;
     width: 50%;
-    border: 3px solid #70a4f2;
+    border: 3px solid #ff2301;
     /*padding: 10px;*/
-    background:#afd5fb;
+    background:#ff2301;
+    border: 1px dotted #a4a4a4;
+    border-radius: 8px;
+    display: none;
+}
+
+#picDiv1 {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border: 3px solid #ff2301;
+    /*padding: 10px;*/
+    background:#ff2301;
+    border: 1px dotted #a4a4a4;
+    border-radius: 8px;
+    display: none;
+}
+
+#picDiv2 {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border: 3px solid #ff2301;
+    /*padding: 10px;*/
+    background:#ff2301;
     border: 1px dotted #a4a4a4;
     border-radius: 8px;
     display: none;

@@ -1,9 +1,16 @@
 
 function validate() {
+
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
   const phone = document.getElementById('phone').value;
   const feedback = document.getElementById('picDiv');
+  const feedback1 = document.getElementById('picDiv1');
+  const feedback2 = document.getElementById('picDiv2');
+
+  feedback.style = "display : none"
+  feedback1.style = "display : none"
+  feedback2.style = "display : none"
   
 
   const namePattern = /^[a-zA-Z_ ]*$/;
@@ -20,12 +27,12 @@ function validate() {
   } 
   
   else if (!emailPattern.test(email)){
-    feedback.style = "display : block"
+    feedback1.style = "display : block"
     console.log("email")
   }
    
   else if (!phonePattern.test(phone)){
-    feedback.style = "display : block"
+    feedback2.style = "display : block"
     console.log("phone")
   }
 
