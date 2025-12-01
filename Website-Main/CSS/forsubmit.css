@@ -55,6 +55,24 @@ textarea {
     margin-bottom: 5%;
 }
 
+/*#myImg {
+    display: none;
+}*/
+
+#picDiv {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border: 3px solid #70a4f2;
+    /*padding: 10px;*/
+    background:#afd5fb;
+    border: 1px dotted #a4a4a4;
+    border-radius: 8px;
+    display: none;
+}
+
+
+
 
 
 @media (max-width: 534px) {
