@@ -41,7 +41,9 @@ h2 {
     width: 20%;
     max-height: 180px;
     max-width: 180px;
-    margin: 0px 15px 30px 30px;
+    min-width: 140px;
+    min-height: 140px;
+    margin: 0px 15px 0px 0px;
     float: left;
 }
 
@@ -77,6 +79,7 @@ figure {
     .figure {
         display: list-item;
     }
+
 
 
 }
